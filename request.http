@@ -1,0 +1,39 @@
+GET http://localhost:8080/demobankclient/api/14
+
+###
+
+GET http://localhost:8080/demobankclient/api/
+
+###
+
+POST http://localhost:8080/demobankclient/api/
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "gender": "Male",
+  "age": 30,
+  "docId": "A12345610",
+  "address": "123 Elm Street",
+  "phoneNumber": "555-1234",
+  "creationTime": null,
+  "updateTime": null,
+  "deleteTime": null,
+  "password": "securePassword123",
+  "active": true
+};
+
+###
+
+PUT http://localhost:8080/demobankclient/customers/api/19
+Content-Type: application/json
+
+{
+  "name": "Rebeca",
+  "gender": "Escribens",
+  "age": 10,
+  "docId": "4445551",
+  "phoneNumber": "555222-1234",
+  "password": "securePassword666",
+  "active": true
+}
